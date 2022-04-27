@@ -1,0 +1,13 @@
+.hangman-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hangman-container button {
+    width: 100%;
+}
+
+.hangman-container input, .hangman-container button {
+    margin-bottom: 2%;
+}

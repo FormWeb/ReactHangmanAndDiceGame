@@ -1,0 +1,25 @@
+.dice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 8%;
+    margin: 10px
+}
+
+.dice p {
+    color: white;
+    font-weight: 800;
+}
+
+.red {
+    transform: rotate(360deg);
+    background-color: red;
+    transition: transform 1s;
+}
+
+.blue {
+    background-color: blue;
+}
